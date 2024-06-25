@@ -4,7 +4,7 @@
 
 int main() {
     bool mode_flag;
-    std::cout << "Welcome to calculator-comparator" << std::endl;
+    std::cout << "Welcome to the calculator-comparator" << std::endl;
     std::cout << "Please choose an operational mode" << "\n"
             << "Enter '0' for calculation mode, or '1' for comparation mode"
             << std::endl;
