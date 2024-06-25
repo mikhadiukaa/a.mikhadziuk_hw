@@ -13,7 +13,7 @@ int main() {
         std::string expression;
         std::vector<char> operations;
         std::vector<float> numbers;
-        std::cout << "Please enter an expression, using digits and following symbols: '+', '-', '*', '/'" << std::endl;
+        std::cout << "Please enter an expression using digits and following symbols: '+', '-', '*', '/'" << std::endl;
         std::cin >> expression;
         unsigned int l = expression.size();
         std::string curr_num = "";
