@@ -63,7 +63,7 @@ int main() {
         if (num_1 - num_2 > 1e-7) {
             std::cout << num_1 << " is bigger than " << num_2 << std::endl;
         } else if (num_2 - num_1 > 1e-7) {
-            std::cout << num_1 << " is less than " << num_2 << std::endl;
+            std::cout << num_1 << " is smaller than " << num_2 << std::endl;
         } else {
             std::cout << num_1 << " is equal to " << num_2 << std::endl;
         }
