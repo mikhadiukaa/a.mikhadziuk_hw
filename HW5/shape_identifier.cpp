@@ -11,14 +11,11 @@ namespace Shapes {
     void printShapes(Shapes::Shape SHAPE_NAME) {
         if (SHAPE_NAME == Shapes::Shape::SQUARE) {
             std::cout << "SQUARE";
-        }
-        else if (SHAPE_NAME == Shapes::Shape::CIRCLE) {
+        } else if (SHAPE_NAME == Shapes::Shape::CIRCLE) {
             std::cout << "CIRCLE";
-        }
-        else if (SHAPE_NAME == Shapes::Shape::TRIANGLE) {
+        } else if (SHAPE_NAME == Shapes::Shape::TRIANGLE) {
             std::cout << "TRIANGLE";
-        }
-        else {
+        } else {
             std::cout << "UNKNOWN";
         }
     }
