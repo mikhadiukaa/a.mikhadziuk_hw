@@ -34,7 +34,7 @@ namespace Shapes {
 
 int main() {
     std::string SHAPE_NAME;
-    std::cout << "Please enter the name of the geomtric shape using capital letters" << std::endl;
+    std::cout << "Please enter the name of the geomtric shape using capital letters..." << std::endl;
     std::cin >> SHAPE_NAME;
     Shapes::printShapes(Shapes::recognizeShapes(SHAPE_NAME));
     return 0;
