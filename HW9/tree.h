@@ -11,8 +11,8 @@ public:
 
   tree(const tree &original_tree);
 
-  static std::string getName(tree *obj) { return obj->name; }
-  static int getId(tree *obj) { return obj->id; }
+  const std::string getName(tree *obj) { return obj->name; }
+  const int getId(tree *obj) { return obj->id; }
 
   void wind();
 
